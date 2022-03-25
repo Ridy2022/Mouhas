@@ -1,0 +1,175 @@
+header {
+	display: block;
+	padding-top: 16px;
+	position: relative;
+	z-index: 999;
+	background: #f2f0f0 ;
+	padding-bottom: 31px;
+	border-bottom: 1px solid #dddbdb;
+	margin: auto;
+	margin-bottom: 15px;
+}
+ 
+	  
+
+
+	 .nav{
+		 display: inline-block;
+		 margin-left: 350px;
+		 margin-top: -60px;
+		 font-size: 20px;
+	 }
+
+ 
+.socials {
+	overflow: hidden;
+	  
+}
+
+ 
+
+
+
+.socials a {
+	background: url(socials.png) 0 0 no-repeat;
+	width: 26px;
+	float: left;
+	display: block;
+	height: 27px;
+	margin-left: 11px;
+ 
+}
+
+.socials a:hover {
+	opacity: 0.5;
+ 
+}
+
+.socials a:first-child {
+	margin-left: 70px;
+}
+
+.socials a:first-child+a {
+	background: url(socials.png) -38px 0 no-repeat;
+	 
+}
+
+.socials a:first-child+a+a {
+	background: url(socials.png) right 0 no-repeat;
+	 
+}
+/* SZCTION MENU*/
+
+.section-menu{
+    padding-bottom: 150px;
+    border-bottom: 1px dashed #333;
+    background: palegoldenrod;
+}
+.section-menu h3{
+    text-align: center;
+    font-size: 45px;
+    margin: 120px 0 20px;
+    padding: 0 30px;
+ 
+}
+.section-menu hr{
+    width: 550px;
+    margin: 20px auto 100px;
+
+}
+ 
+
+.container-menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+hr{
+    background:black;
+}
+.cartes-menu{
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 15px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgb(0, 0,0,0.5);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+
+}
+.cartes-menu:hover{
+    transform: translateY(-40px);
+     
+    transition: 1s ;
+}
+
+.cartes-menu h4{
+    text-align: center;
+    padding: 20px 25px;
+    font-size: 35px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0 100%);
+    background: #ffafbf;
+}
+.cartes-menu:nth-child(2) h4 {
+     background:#ff5699;
+}
+
+
+.cartes-menu:nth-child(3) h4 {
+   background:#ff5073;
+}
+.cartes-menu:nth-child(4) h4 {
+    background:#ff0033;
+ }
+.cartes-menu p{
+    font-size: 20px;
+    padding: 18px 10px;
+    border-top: 1px solid rgb(194, 197, 194);
+    
+
+}
+.cartes-menu p:last-of-type{
+    border-bottom: 2px solid rgb(194, 197, 194);
+
+}
+.cartes-menu p:nth-child(odd){
+    background: white;
+
+}
+p{
+    background: white;
+}
+.cartes-menu a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid #333;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 9999px;
+    color: #333;
+    font-size: 18px;
+    line-height: 50px;
+    margin: 20px auto;
+    transition: all 0.2s ease-in-out ;
+}
+.cartes-menu a:hover{
+    background: #333;
+    color: #f1f1f1;
+}
+
+footer {
+	display: block;
+	padding: 45px 0;
+	font-size: 12px;
+	text-align: center;
+	background-color: green;
+}
+
+footer a:hover {
+	color: green;}
+.m{
+    background: green;
+}

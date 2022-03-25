@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Reservation.css">
+  <link href="./css/bootstrap.css" rel="stylesheet"> 
+  
+  <title>Document</title>
+</head>
+ 
+<body> 
+
+  <header>
+    <h2>  LE FESTIN ROYAL  <br>&emsp; RESTAURANT </h2>
+    <ul class="nav nav-tabs">
+      <li><a href="Restaurant acceuil.html" data-toggle="tab">Accueil  &emsp;</a></li>
+      <li><a href="menu.html" data-toggle="tab">Menu &emsp;</a></li>
+      <li class="active"><a href="Reservation.html" data-toggle="tab">Reservation  &emsp;</a></li>
+      <li><a href="Commande en ligne.html" data-toggle="tab">Commande en ligne  &emsp;</a></li>
+      <li ><a href="Conctatez nous .html" data-toggle="tab">Contactez nous  &emsp;</a></li>
+    </ul>
+      
+  </header>
+
+    <div class="body"> 
+    <div class="boxForm">
+        <h1>
+          <span class="logotitre">
+            <img src="png-transparent-suite-golf-course-room-pro-shop-reservation-studio-text-logo.jpg" alt="logo plane">
+          </span>
+        </h1>
+      <form action="Resevation.php" method ="post" > 
+
+            <div class="flex2Inputs">
+                <div class="flexLeftInp">
+        
+                    
+                    <input type="text" name="nom" id="nom" required maxlength="35" class="flexInp1" placeholder="Entrez votre nom">
+                    <label for="date" class="labelFlex"></label>
+                    <input type="date" name="dat" id="date" required maxlength="15" class="flexInp1" placeholder="date de reservation">
+                    <input type="tel" name="numero" id="nom" required maxlength="10" class="tel" placeholder="Entrez votre numero">
+                    
+                </div>
+                 
+                <div class="flexRightInp">
+                     
+                    <input type="text" name="prenom" id="prenom"  class="flexInp" required maxlength="35" placeholder="Entrez votre prenom">
+                    <label for="email" class="labelemail"> </label>
+                    <input type="email" name="email" id="email" class="flexInp" required maxlength="50" placeholder="Entrez votre email">
+
+                </div>
+            </div>
+             
+            <div class="flex3">
+                <div class="flexRightSel">
+                    
+                    <input type="text" name="nombre" id="text" class="flex" required maxlength="50" placeholder="combien de personne">
+                    <label for="date" class="labelFlex"></label>
+                    <input type="time" name="heure" id="time" required maxlength="15" class="flexInp2" placeholder="heure de reservation">
+                    
+                </div>
+                
+            </div>
+
+
+
+
+            <label for="txtArea" id="labeltxt">Message</label>
+            <textarea name="txt" id="txtArea" cols="40" rows="7"></textarea>
+             <br>
+               <div class="from-groupe"> 
+                   <input type="submit" value="Envoyer" class="button-sub">
+               </div>
+
+                 
+      </form>
+
+    </div>
+    </div>
+</body>
+
+<br>
+
+<h3>   &emsp;  Suivez-nous</h3>
+<div class="socials"> 
+  <a href="#"></a>
+  <a  href="#"> </a>
+  <a  href="#"> </a>
+</div>
+</div>
+    <br>
+    <footer>   
+        
+    
+ 
+       
+             <p>LE FESTIN ROYAL  2022 </p> &nbsp;&nbsp; &nbsp;&nbsp;    <a href="#">Privacy Policy</a> </p>
+    </footer>
+</body>
+    
+</html> 

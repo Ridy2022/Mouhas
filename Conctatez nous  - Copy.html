@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Restaurant aceuil.css">
+  <link rel="stylesheet" href="Contactez nous.css">
+  <link href="./css/bootstrap.css" rel="stylesheet"> 
+  <title>Document</title>
+</head>
+ 
+<body> 
+
+  <header>
+    <h2>  LE FESTIN ROYAL  <br>&emsp; RESTAURANT </h2>
+    <ul class="nav nav-tabs">
+      <li><a href="Restaurant acceuil.html" data-toggle="tab">Accueil  &emsp;</a></li>
+      <li><a href="menu.html" data-toggle="tab">Menu &emsp;</a></li>
+      <li><a href="Reservation.html" data-toggle="tab">Reservation  &emsp;</a></li>
+      <li><a href="Commande en ligne.html" data-toggle="tab">Commande en ligne  &emsp;</a></li>
+      <li class="active"><a href="Conctatez nous .html" data-toggle="tab">Contactez nous  &emsp;</a></li>
+    </ul>
+      
+  </header>
+    <div class="body"> 
+    <div class="boxForm">
+        <h1>
+          <span class="logotitre">
+            <img src="bouton_contactez-nous.png" alt="logo plane">
+          </span>
+        </h1>
+        <form action="contacteznous.php" method ="post" >
+            <label for="email" class="labelemail">entrez votre email </label>
+            <input type="email" name="email" id="email" class="emailInp" required maxlength="50" placeholder="Entrez votre email">
+
+            <div class="flex2Inputs">
+                <div class="flexLeftInp">
+                    <label for="prenom" class="labelFlex">Entrez votre prenom</label>
+                    <input type="text" name="prenom" id="prenom" required maxlength="35" class="flexInp" placeholder="Entrez votre prenom">
+                </div>
+                <div class="flexRightInp">
+                    <label for="nom" class="labelFlex">Entrez votre nom</label>
+                    <input type="text" name="nom" id="nom" required maxlength="35" class="flexInp" placeholder="Entrez votre nom">
+                </div>
+            </div>
+
+            <label for="txtArea" class="labeltxt">Message</label>
+            <textarea name="txt" id="txtArea" cols="40" rows="7"></textarea>
+             <br>
+               <div class="from-groupe"> 
+                   <input type="submit" value="Envoyer" name="envoyer" class="button-sub">
+               </div>
+
+                 
+        </form>
+
+    </div>
+    </div>
+</body>
+
+<br>
+
+<h3>   &emsp;  Suivez-nous</h3>
+<div class="socials"> 
+  <a href="#"></a>
+  <a  href="#"> </a>
+  <a  href="#"> </a>
+</div>
+</div>
+    <br>
+    <footer>   
+        
+    
+ 
+       
+             <p>LE FESTIN ROYAL  2022 </p> &nbsp;&nbsp; &nbsp;&nbsp;    <a href="#">Privacy Policy</a> </p>
+    </footer>
+</body>
+    
+</html>
+<!-- 
+    <h2>  LE FESTIN ROYAL  <br>&emsp; RESTAURANT </h2>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#accueil" data-toggle="tab">Accueil  &emsp;</a></li>
+      <li><a href="#menu" data-toggle="tab">Menu &emsp;</a></li>
+      <li><a href="#reservation" data-toggle="tab">Reservation  &emsp;</a></li>
+      <li><a href="#commande en ligne" data-toggle="tab">Commande en ligne  &emsp;</a></li>
+      <li><a href="#a propos de nous" data-toggle="tab">A Propos De Nous  &emsp;</a></li>
+      <li><a href="#contactez nous" data-toggle="tab">Contactez nous  &emsp;</a></li>
+    </ul>
+      <div class="tab-content">
+      <div class="tab-pane active" id="accueil"> </div>
+      <div class="tab-pane" id="menu"> 
+      
+      </div>
+      <div class="tab-pane" id="reservation"> </div>
+      <div class="tab-pane" id="commande en ligne"> </div>
+      <div class="tab-pane" id="a propos de nous"> </div>
+      <div class="tab-pane" id="Contactez nous"> </div>
+      <div class="tab-pane" id="pizza"></div>
+      <div class="tab-pane" id="boisson"></div>
+      </div>
+      
+
+    </header>-->

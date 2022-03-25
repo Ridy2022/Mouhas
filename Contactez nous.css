@@ -1,0 +1,205 @@
+header {
+	display: block;
+	padding-top: 16px;
+	position: relative;
+	z-index: 999;
+	background: #f2f0f0 ;
+	padding-bottom: 31px;
+	border-bottom: 1px solid #dddbdb;
+	margin: auto;
+	margin-bottom: 15px;}
+
+.nav{
+        display: inline-block;
+        margin-left: 350px;
+        margin-top: -60px;
+        font-size: 20px;
+    }
+ 
+.body{
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    height: 140vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.boxForm{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 700px;
+    height: 720px;
+    background: white;
+    border-radius: 5px;
+
+}
+h1{
+     width: -100px;
+     position: relative;
+     top: 0px;
+     margin-left: 60px;
+
+}
+
+.emailInp, textarea{
+    background: #f1f1f1;
+    display: block;
+    margin: 20px auto;
+    outline: 0;
+    width: 95%;
+    border: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-top: -0px;
+
+}
+
+.labelemail {
+     
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: -10px;
+    margin-top: 20px;
+}
+
+.labeltxt{
+     
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    position: relative;
+    top: -10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+
+}
+
+.flex2Inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    
+
+}
+
+.flexInp{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    outline: 0;
+    background: #f1f1f1;
+    width: 90%;
+    border: 0;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+ .from-groupe{
+     position: relative;
+     margin-bottom: -100px;
+ }
+ .from-groupe input{
+     display: block;
+     width: 80px;
+     padding: 5px 0;
+     border: none;
+     outline: none;
+     background: none;
+ }
+ .from-groupe .button-sub{
+    display: block;
+    width: auto;
+    padding: 5px 30px;
+    border: solid rgb(144, 144, 144);
+    border-radius: 9999px;
+    background-image: linear-gradient(to right transparent 50% rgb(65, 65,65) 50% rgb(134, 134,134));
+    background-size: 50px;
+    color: #3f3f3f;
+    font-size: 24px;
+    font-weight:300;
+    cursor: pointer;
+ }
+
+ .from-groupe .button-sub:hover{
+     background-color: green;
+     background-position: 100px;
+     border: 3px solid green;
+ }
+ 
+
+ 
+.socials {
+	overflow: hidden;
+	  
+}
+
+ 
+
+
+
+.socials a {
+	background: url(socials.png) 0 0 no-repeat;
+	width: 26px;
+	float: left;
+	display: block;
+	height: 27px;
+	margin-left: 11px;
+ 
+}
+
+.socials a:hover {
+	opacity: 0.5;
+ 
+}
+
+.socials a:first-child {
+	margin-left: 70px;
+}
+
+.socials a:first-child+a {
+	background: url(socials.png) -38px 0 no-repeat;
+	 
+}
+
+.socials a:first-child+a+a {
+	background: url(socials.png) right 0 no-repeat;
+	 
+}
+ 
+
+footer {
+	display: block;
+	padding: 45px 0;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	background-color: green;
+}
+
+footer a:hover {
+	color: #fff;}
+
+
+
+       
+/*header {
+	display: block;
+	padding-top: 16px;
+	position: relative;
+	z-index: 999;
+	background: #f2f0f0 ;
+	padding-bottom: 31px;
+	border-bottom: 1px solid #dddbdb;
+	margin: auto;
+	margin-bottom: 15px;
+}*/
+
+
+
+
+ 
